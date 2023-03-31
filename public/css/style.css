@@ -126,10 +126,22 @@ width: 100%;;
 flex-basis: 25%;
 min-height: 200px;
 padding: 15px;
+transition: backgroug:0.5s;
 
 }
 .col-4 img
 
 {
 width: 100%;;
+}
+
+.col-4:hover
+{
+transform: translateY(-10px);
+
+
+}
+.rating .fa
+{
+color: #16a7b4;
 }
