@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,300&family=Quicksand:wght@300&display=swap');
+*
+{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body
+{
+  
+    font-family: 'Poppins', sans-serif;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.logo
+{
+    width: 140px;
+}
+nav
+{
+flex: 1;
+text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container
+{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;;
+
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col-2
+{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.col-2 img
+{
+    width: 100%;
+    padding-top: 30px 0;
+}
+.col-2 h1
+{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px;
+}
+p{
+    color:#555;
+}
+.col-2 a
+{
+   text-decoration: none;
+   padding: 10px 30px;
+   background-color: #f7602e;
+   color: white;
+   border-radius: 30px;
+   display: inline-block;
+   margin-top: 20px;
+   transition: backgroup 0.5s;
+
+}
+.col-2 a:hover
+{
+  background: #eb4108;
+
+}
+
+.header-section
+{
+    margin-top: -20px;
+    background:radial-gradient(#fff,#b1eef2);
+}
+/*Style de la section cathegorie*/
+.categories
+{
+margin: 70px 0;
+
+}
+.col-3
+{
+flex-basis: 30%;
+min-height: 250px;
+margin: auto;
+}
+.col-3 img
+
+{
+width: 100%;;
+}
+.container h2{
+    text-align: center;
+    font-size: 1.8rem;
+    columns: #444;
+    margin: 50px 0px;
+}/*Section des Meilleurs Produits*/
+
+.col-4
+{
+flex-basis: 25%;
+min-height: 200px;
+padding: 15px;
+
+}
+.col-4 img
+
+{
+width: 100%;;
+}
